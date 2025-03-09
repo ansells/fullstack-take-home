@@ -1,0 +1,21 @@
+# General ignores
+.idea/
+*.pyc
+__pycache__/
+.DS_Store
+node_modules/
+.env
+*.log
+
+# Django specific ignores
+backend/local_settings.py
+backend/*.sqlite3
+backend/media/
+backend/static/
+backend/env
+
+# React specific ignores
+frontend/build/
+
+#VS Code
+.vscode/
