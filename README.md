@@ -50,8 +50,8 @@ documented below:
 
 ## Notes
 
-- The web app should is implemented using **Django** and the **Django Rest Framework (DRF)**
-- The front-end should be a **Single Page Application (SPA)** built with **React**.
+- The web app is implemented using **Django** and the **Django Rest Framework (DRF)**
+- The front-end is a **Single Page Application (SPA)** built with **React**.
 - Backend documentation is provided in the `backend/README.md` file.
 - Frontend documentation is provided in the `frontend/README.md` file.
 
