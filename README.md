@@ -50,17 +50,33 @@ documented below:
 
 ## Notes
 
-- The web app should be implemented using **Django**.
-- Consider using the **Django Rest Framework (DRF)** to minimize the amount of backend code required.
-- The front-end should be a **Single Page Application (SPA)** of your choice.
-- **Design & UI:**
-  - Do not worry about exact font styles, colors, or icons.
-  - Focus on functionality, user experience (UX), and Django best practices.
+- The web app should is implemented using **Django** and the **Django Rest Framework (DRF)**
+- The front-end should be a **Single Page Application (SPA)** built with **React**.
+- Backend documentation is provided in the `backend/README.md` file.
+- Frontend documentation is provided in the `frontend/README.md` file.
 
 ---
 
 ## Expectations
 
-- **No strict deadline.** Work on it at your own pace.
 - When submitting the project, please include an **estimate of the total time spent** on development.
-- Think about the **end-user experience** and make any improvements you see fit to create a more complete application.
+- Time log:
+  - **Day 1:**
+    - Total time: 4 hours
+    - Get up to speed with Django REST Framework reading documentation and working through tutorials.
+    - Setup Django project.
+    - Implement the backend API
+  - **Day 2:**
+    - Total time: 8 hours
+    - Research a good starting set of technologies for frontend
+    - Implement the frontend structure.
+    - Spend some time looking into UI component frameworks
+      - End up just using plain Tailwind CSS and React to make minimal necesary components
+      - While UI refinement was not a priority, I did spend some time (maybe more than necessary) making sure the app was usable and looked decent.
+    - Connect the frontend to the backend API.
+    - Fix some bugs and refine frontend workflow
+  - **Day 3:**
+    - Total time: 4 hours
+    - Fine tune the frontend with some error handling on forms and better navigation
+    - Write documentation
+    - Prepare for submission
